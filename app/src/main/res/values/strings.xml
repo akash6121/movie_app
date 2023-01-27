@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movie_App</string>
+    <string name="something_written">Body hjdic</string>
+    <string name="butta">Change</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/singlecard"
+    >
+<LinearLayout
+
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/movieimg"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movname"
+        android:text="GameChanger"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>
+</androidx.cardview.widget.CardView>
